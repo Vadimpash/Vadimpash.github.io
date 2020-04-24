@@ -1,10 +1,6 @@
-form {
-    align-self: center;
-    justify-self: center;
-    height: 400px;
-    width: 550px;
-    color: white;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .mainWindow {
@@ -12,46 +8,138 @@ form {
     position: relative;
 }
 
+
 .banner {
-    text-align:center ;
-}
-
-.title {
-    display: grid;
-    grid-gap: 2px;
-    grid-template-columns: repeat( 1, 500px);
+    position: absolute;
+    align-self: center;
+    justify-self: center;
     text-align: center;
+    margin-bottom: 45%;
+    font-family: 'Raleway ExtraLight', serif;
 }
 
-.title h1 {
-    margin: 0;
-}
-
-.title h1:nth-child(1) {
+.title span:nth-child(1) {
+    text-transform: uppercase;
     color: white;
     font-size: 75px;
-
 }
 
-.title h1:nth-child(2) {
+.title span:nth-child(3) {
+    text-transform: uppercase;
     color: white;
     font-size: 30px;
-
 }
 
-.title h1:nth-child(3) {
+.title span:nth-child(5) {
+    text-transform: uppercase;
     color: white;
     font-size: 20px;
-
 }
 
-.authContent {
+.Fon img {
+    width: 100%;
+}
+
+.formCont {
+    display: grid;
+}
+
+.add span {
+    align-self: center;
+}
+
+.authorization {
     display: grid;
     position: absolute;
+    grid-template-columns: repeat(1, 1fr);
+    align-self: center;
     justify-self: center;
+    width: 935px;
+    height: 200px;
+    margin-top: 20%;
 }
 
-.banner img {
-    height: 1000px;
-    width: 320px;
+.titAuto {
+    align-self: center;
 }
+
+.titAuto {
+    display: grid;
+    font-size: 35px;
+    height: 50px;
+    padding-left: 50px;
+    align-items: center;
+    background-color: #9c9c9c;
+    text-transform: uppercase;
+    font-family: 'Raleway Medium', serif;
+}
+
+.titLog span {
+    align-self: center;
+}
+
+.titLog {
+    display: grid;
+    font-size: 35px;
+    padding-left: 50px;
+    height: 100px;
+    color: white;
+    background-color: #181818;
+    text-transform: uppercase;
+    font-family: 'Raleway ExtraLight', serif;
+}
+
+.titPass span {
+    align-self: center;
+}
+
+.titPass {
+    display: grid;
+    font-size: 35px;
+    padding-left: 50px;
+    height: 100px;
+    color: white;
+    background-color: #181818;
+    text-transform: uppercase;
+    font-family: 'Raleway ExtraLight', serif;
+}
+
+
+.add {
+    padding-left: 50px;
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(1, 2fr 1fr);
+    background-color: #181818;
+    text-transform: uppercase;
+    font-family: 'Raleway ExtraLight', serif;
+}
+
+.mainFooter {
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    margin-top: 140%;
+}
+
+.add button {
+    color: white;
+    border: none;
+    height: 100px;
+    background-color: #181818;
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 55px;
+    padding-left: 50px;
+    width: 450px;
+    height: 90px;
+    border: none;
+    color: white;
+    background-color: #000000;
+    text-transform: uppercase;
+    font-family: 'Raleway Medium', serif;
+}
+
