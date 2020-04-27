@@ -2,17 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/png/circle_O.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/png/circle_W.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedRegular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedRegular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedRegular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/png/exitReg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/png/logoReg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/history/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/history/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/hookahs/hookahs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/hookahs/hookahs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/statistic/statistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/statistic/statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/tabac/tabac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/tabac/tabac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -61,6 +86,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\png" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\body" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\jpg" />
     </key>
   </component>
@@ -95,6 +121,11 @@
       <workItem from="1587716121110" duration="11223000" />
       <workItem from="1587730329483" duration="2168000" />
       <workItem from="1587742914812" duration="2702000" />
+      <workItem from="1587800871490" duration="4551000" />
+      <workItem from="1587834422513" duration="7194000" />
+      <workItem from="1587884340755" duration="2408000" />
+      <workItem from="1587928251961" duration="1064000" />
+      <workItem from="1587974837905" duration="9920000" />
     </task>
     <servers />
   </component>

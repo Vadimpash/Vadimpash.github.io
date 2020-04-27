@@ -4,28 +4,27 @@ import './fonts/stylesheet.css';
 import Authorization from "./components/ authorization/authorization";
 import Error from "./components/error/error"
 import Registration from "./components/registration/registration";
-import Hookahs from "./components/hookahs/hookahs";
-import Statistic from "./components/statistic/statistic";
-import Tabac from "./components/tabac/tabac";
-import History from "./components/history/history";
+import Hookahs from "./components/body/hookahs/hookahs";
+import Statistic from "./components/body/statistic/statistic";
+import Tabac from "./components/body/tabac/tabac";
+import History from "./components/body/history/history";
+import {BrowserRouter, Route} from "react-router-dom";
 
 
 const App = () => {
 
     return (
-        <div>
+        <BrowserRouter>
             <div className="wrapper">
-                <Authorization/>
-                <div className="body">
-                    <Error/>
-                    <Registration/>
-                    <Hookahs/>
-                    <Statistic/>
-                    <Tabac/>
-                    <History/>
-                </div>
+                <div className="auth"><Route exact path='/' component={Authorization}/></div>
+                <div className="registration"><Route exact path='/registration' component={Registration}/></div>
+                <Error/>
+                <Hookahs/>
+                <Statistic/>
+                <Tabac/>
+                <History/>
             </div>
-        </div>
+        </BrowserRouter>
     );
 };
 
