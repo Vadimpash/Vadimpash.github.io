@@ -10,11 +10,6 @@
     padding-left: 70px;
 }
 
-.logRegImg {
-    text-align: right;
-    margin-right: 80px;
-}
-
 .titWrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr);
@@ -48,15 +43,45 @@
     text-transform: uppercase;
 }
 
+.logRegImg {
+    text-align: right;
+    margin-right: 80px;
+}
+
 .set {
     display: grid;
     color: white;
     background-color: #232323;
 }
 
+.SetTit {
+    display: grid;
+    background-color: #f1c567;
+    grid-auto-rows: minmax(70px, auto);
+}
+
+.SetTit p {
+    font-family: "DINPro-CondensedRegular", serif;
+    padding-left: 70px;
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.set h1 {
+    font-family: DINPro, serif;
+    padding-left: 70px;
+    font-size: 65px;
+    text-transform: uppercase;
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
+
 .setCont {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr);
+    grid-auto-rows: minmax(70px, auto);
     font-family: DINPro, serif;
     background-color: #232323;
     padding-bottom: 110px;
@@ -72,15 +97,12 @@
     padding-left: 70px;
     background-color: #232323;
     font-size: 30px;
-    height: 70px;
     text-transform: uppercase;
-
 }
 
 .set span:nth-child(2) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -88,7 +110,6 @@
 .set span:nth-child(3) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -96,7 +117,6 @@
 .set span:nth-child(4) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -104,7 +124,6 @@
 .set span:nth-child(5) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -112,7 +131,6 @@
 .set span:nth-child(6) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -120,7 +138,6 @@
 .set span:nth-child(7) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -128,72 +145,19 @@
 .set span:nth-child(8) {
     padding-left: 70px;
     background-color: #232323;
-    height: 70px;
     font-size: 35px;
     text-transform: uppercase;
 }
-
-.set h1 {
-    font-family: DINPro, serif;
-    padding-left: 70px;
-    font-size: 65px;
-    text-transform: uppercase;
-    padding-top: 65px;
-    padding-bottom: 70px;
-}
-
-
-
-.set h2 {
-    font-family: "DINPro-CondensedRegular", serif;
-    padding-left: 70px;
-    background-color: #f1c567;
-    color: black;
-    height: 70px;
-    font-size: 35px;
-    text-transform: uppercase;
-    align-self: center;
-}
-
 
 .addRegMain form {
     display: grid;
     grid-template-columns: repeat(1, 3fr 1fr);
 }
 
-.titLogReg {
-    display: grid;
-    padding-left: 100px;
-    height: 90px;
-}
-
-.titLogReg span {
-    align-self: center;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Raleway ExtraLight", serif;
-}
-
-.titPassReg {
-    display: grid;
-    padding-left: 100px;
-    height: 90px;
-}
-
-.titPassReg span {
-    align-self: center;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Raleway ExtraLight", serif;
-}
-
-
 .titReg {
     display: grid;
     background-color: #f1c567;
-    height: 55px;
+    grid-auto-rows: minmax(55px, auto);
     padding-left: 100px;
 }
 
@@ -211,6 +175,34 @@
     padding-left: 100px;
 }
 
+.titLogReg {
+    display: grid;
+    padding-left: 100px;
+    grid-auto-rows: minmax(90px, auto);
+}
+
+.titLogReg span {
+    align-self: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Raleway ExtraLight", serif;
+}
+
+.titPassReg {
+    display: grid;
+    padding-left: 100px;
+    grid-auto-rows: minmax(90px, auto);
+}
+
+.titPassReg span {
+    align-self: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Raleway ExtraLight", serif;
+}
+
 .addReg {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr 1fr);
@@ -224,7 +216,6 @@
     text-transform: uppercase;
     color: #f1c669;
     padding-top: 95px;
-
 }
 
 .addReg span:nth-child(2) {
@@ -239,10 +230,7 @@
     font-family: "Raleway ExtraLight", serif;
     font-size: 40px;
     color: white;
-    padding-top: 95px;
-    padding-bottom: 65px;
-    padding-left: 100px;
-    padding-right: 40px;
+    padding: 95px 40px 65px 100px;
 }
 
 .addReg input {
@@ -275,9 +263,8 @@
     border: medium none;
     background: transparent none;
     margin-left: 140px;
-    padding-top: 330px;
-    padding-bottom: 95px;
-
+    margin-top: 330px;
+    margin-bottom: 95px;
 }
 
 .foot span {

@@ -11,10 +11,9 @@ const Registration = () => {
                 <div className="titWrap"><span className="colorText">restaurant</span><span className="sp2">name</span>
                     <span className="sp3">bergh</span></div>
                 <div className="logRegImg"><img src={logoReg} alt="/"/></div>
-
             </div>
             <div className="set">
-                <div className="SetTit"><h2>settings</h2></div>
+                <div className="SetTit"><p>settings</p></div>
                 <h1>administrators</h1>
                 <div className="setCont">
                     <span>benjamin lion</span>
@@ -55,7 +54,6 @@ const Registration = () => {
                 <p>general legal information for the customer and other thing general legal <br/> information for the
                     customer and other things</p>
             </div>
-
         </div>
     );
 }

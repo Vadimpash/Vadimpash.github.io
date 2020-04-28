@@ -3,11 +3,26 @@
     padding: 0;
 }
 
+input {
+    font-size: 55px;
+    padding-left: 50px;
+    width: 450px;
+    height: 90px;
+    border: none;
+    color: white;
+    background-color: #000000;
+    text-transform: uppercase;
+    font-family: 'Raleway Medium', serif;
+}
+
 .mainWindow {
     display: grid;
     position: relative;
 }
 
+.Fon img {
+    width: 100%;
+}
 
 .banner {
     position: absolute;
@@ -37,37 +52,20 @@
     font-size: 20px;
 }
 
-.Fon img {
-    width: 100%;
-}
-
-.formCont {
-    display: grid;
-}
-
-.add span {
-    align-self: center;
-}
-
 .authorization {
     display: grid;
     position: absolute;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 935px);
     align-self: center;
     justify-self: center;
-    width: 935px;
     height: 200px;
     margin-top: 20%;
 }
 
 .titAuth {
-    align-self: center;
-}
-
-.titAuto {
     display: grid;
     font-size: 35px;
-    height: 50px;
+    grid-auto-rows: minmax(50px, auto);
     padding-left: 50px;
     align-items: center;
     background-color: #9c9c9c;
@@ -75,23 +73,23 @@
     font-family: 'Raleway Medium', serif;
 }
 
-.titLog span {
+.titAuth {
     align-self: center;
+}
+
+.formCont {
+    display: grid;
 }
 
 .titLog {
     display: grid;
     font-size: 35px;
     padding-left: 50px;
-    height: 100px;
+    grid-auto-rows: minmax(100px, auto);
     color: white;
     background-color: #181818;
     text-transform: uppercase;
     font-family: 'Raleway ExtraLight', serif;
-}
-
-.titPass span {
-    align-self: center;
 }
 
 .titPass {
@@ -105,15 +103,41 @@
     font-family: 'Raleway ExtraLight', serif;
 }
 
+.titLog span {
+    align-self: center;
+}
+
+.titPass span {
+    align-self: center;
+}
 
 .add {
     padding-left: 50px;
     display: grid;
     color: white;
     grid-template-columns: repeat(1, 2fr 1fr);
+    grid-auto-rows: minmax(180px, auto);
+    background-color: #181818;
+    font-family: 'Raleway ExtraLight', serif;
+}
+
+.add button {
+    font-size: 35px;
+    font-family: "Raleway ExtraLight", serif;
+    align-self: center;
+    color: white;
+    border: none;
+    height: 100px;
     background-color: #181818;
     text-transform: uppercase;
-    font-family: 'Raleway ExtraLight', serif;
+}
+
+.add a {
+    align-self: center;
+    text-decoration: blink;
+    color: white;
+    font-size: 40px;
+    font-family: "Raleway ExtraLight", serif;
 }
 
 .mainFooter {
@@ -123,24 +147,3 @@
     text-align: center;
     margin-top: 140%;
 }
-
-.add button {
-    color: white;
-    border: none;
-    height: 100px;
-    background-color: #181818;
-    text-transform: uppercase;
-}
-
-input {
-    font-size: 55px;
-    padding-left: 50px;
-    width: 450px;
-    height: 90px;
-    border: none;
-    color: white;
-    background-color: #000000;
-    text-transform: uppercase;
-    font-family: 'Raleway Medium', serif;
-}
-
