@@ -32,7 +32,7 @@ const Authorization = () => {
                         </div>
                         <div className="add"><NavLink to="/registration"
                         ><span>registration <br/> add new user</span></NavLink>
-                            <button>enter</button>
+                           <NavLink to="/body"><button>enter</button></NavLink>
                         </div>
                     </div>
                 </form>

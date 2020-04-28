@@ -1,0 +1,173 @@
+.hookah {
+    background-color: black;
+    padding-left: 55px;
+}
+
+.headHookah {
+    display: grid;
+    padding-top: 80px;
+    grid-template-columns: repeat(1, 1fr 1fr);
+    font-family: "Raleway Medium", serif;
+}
+
+.HookahWrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr);
+    margin-bottom: 85px;
+}
+
+.colorHookahText {
+    font-family: "DINPro-Medium", serif;
+    color: #d39c40;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.colorHookahText p {
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.HookahSp1 {
+    font-family: "DINPro", serif;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.HookahSp2 {
+    font-family: "DINPro-Light", serif;
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.headHookahImg {
+    text-align: right;
+    margin-right: 80px;
+}
+
+.menuHookah {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+    grid-auto-rows: minmax(65px, auto);
+    grid-gap: 5px;
+}
+
+.menuHookah a {
+    text-decoration: blink;
+    align-self: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: DINPro-CondensedRegular, serif;
+    color: white;
+    text-transform: uppercase;
+    background-color: #6f6e6e;
+}
+
+.footerPageHookah {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 2fr 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    background-color: #e6ac48;
+}
+
+.footerButtonHookah1 {
+    border: medium none;
+    background: transparent none;
+}
+
+.footerButtonHookah1 img {
+    padding-left: 40px;
+}
+
+.footerButtonHookah1 span {
+    padding-left: 25px;
+    font-family: DINPro-Bold, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.footerSpanHookah1 {
+    display: grid;
+}
+
+.footerSpanHookah1 span {
+    align-self: center;
+    padding-left: 20px;
+    font-family: DINPro-Light, serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.footerButtonHookah2 {
+    border: medium none;
+    background: transparent none;
+}
+
+.footerButtonHookah2 span {
+    padding-left: 25px;
+    font-family: DINPro-Bold, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.footerSettingHookah {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    grid-auto-rows: minmax(90px, auto);
+    margin-top: 15px;
+    grid-gap: 5px;
+}
+
+.footerEmptyDiv {
+    background-color: #464646;
+}
+
+.footerEmptyDiv span {
+    visibility: hidden;
+}
+
+.footerSettingSpanHookah {
+    display: grid;
+    background-color: #e6ac48;
+}
+
+.footerSettingSpanHookah span {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 55px;
+    color: black;
+    text-transform: uppercase;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+.footerSettingHookah a {
+    display: grid;
+    text-decoration: blink;
+    background-color: #bb0343;
+
+}
+
+.footerSettingButtonHookah {
+    border: medium none;
+    background: transparent none;
+}
+
+.footerSettingButtonHookah span {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 55px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footerTextHookah p {
+    font-family: DINPro, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #555555;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}

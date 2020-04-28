@@ -64,6 +64,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DINPro-Bold';
+    src: url('DINPro-Bold.eot');
+    src: url('DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('DINPro-Bold.woff') format('woff'),
+    url('DINPro-Bold.ttf') format('truetype'),
+    url('DINPro-Bold.svg#DINPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
 
 
 
