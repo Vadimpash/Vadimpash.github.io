@@ -30,9 +30,9 @@ const Authorization = () => {
                             <label htmlFor="password"> </label>
                             <input type="password" id="pass" placeholder="xxxxxx"/>
                         </div>
-                        <div className="add"><NavLink to="/registration"
+                        <div className="add"><NavLink exact to="/registration"
                         ><span>registration <br/> add new user</span></NavLink>
-                           <NavLink to="/body"><button>enter</button></NavLink>
+                           <NavLink exact to="/hookah"><button>enter</button></NavLink>
                         </div>
                     </div>
                 </form>

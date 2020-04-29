@@ -1,9 +1,9 @@
 import React from "react";
 import './hookahs.css';
-import logoReg from "../../../img/png/logoReg.png";
-import exitHookah from "../../../img/png/exitReg.png"
-import arrowNext from "../../../img/png/arrowNext.png"
-import arrowSort from "../../../img/png/arrowSort.png"
+import logoReg from "../../img/png/logoReg.png";
+import exitHookah from "../../img/png/exitReg.png"
+import arrowNext from "../../img/png/arrowNext.png"
+import arrowSort from "../../img/png/arrowSort.png"
 import {NavLink} from "react-router-dom";
 
 
@@ -13,16 +13,17 @@ const Hookahs = () => {
             <div className="headHookah">
                 <div className="HookahWrap"><span className="colorHookahText">restaurant</span><span
                     className="HookahSp1">name</span>
-                    <span className="HookahSp1">bergh</span></div>
+                    <span className="HookahSp2">bergh</span></div>
                 <div className="headHookahImg"><img src={logoReg} alt="/"/></div>
             </div>
             <div className="menuHookah">
-                <NavLink exact to="/body">active hookahs</NavLink>
-                <NavLink exact to="/statistic">statistic</NavLink>
-                <NavLink exact to="/tobacco">tobacco</NavLink>
-                <NavLink exact to="/history">history</NavLink>
+                <NavLink exact to="/hookah" activeClassName='active'>active hookahs</NavLink>
+                <NavLink exact to="/statistic" activeClassName='active'>statistic</NavLink>
+                <NavLink exact to="/tabac" activeClassName='active'>tobacco</NavLink>
+                <NavLink exact to="/history" activeClassName='active'>history</NavLink>
             </div>
             <div className="contentHookah">
+                <span>hookah</span>
             </div>
             <div className="footerHookah">
                 <div className="footerPageHookah">
