@@ -5,6 +5,7 @@ import exitHookah from "../../img/png/exitReg.png"
 import arrowNext from "../../img/png/arrowNext.png"
 import arrowSort from "../../img/png/arrowSort.png"
 import {NavLink} from "react-router-dom";
+import AccordionTabac from "../Accordion/accordionTabac";
 
 
 const Tabac = () => {
@@ -23,7 +24,14 @@ const Tabac = () => {
                 <NavLink exact to="/history" activeClassName='active'>history</NavLink>
             </div>
             <div className="contentTabac">
-                <span>tabac</span>
+                <AccordionTabac title="Ramsider 01" content="tabac"/>
+                <AccordionTabac title="Ramsider 02" content="tabac"/>
+                <AccordionTabac title="Ramsider 03" content="tabac"/>
+                <AccordionTabac title="Ramsider 04" content="tabac"/>
+                <AccordionTabac title="Ramsider 05" content="tabac"/>
+                <AccordionTabac title="Ramsider 06" content="tabac"/>
+                <AccordionTabac title="Ramsider 07" content="tabac"/>
+                <AccordionTabac title="Ramsider 08" content="tabac"/>
             </div>
             <div className="footerTabac">
                 <div className="footerPageTabac">

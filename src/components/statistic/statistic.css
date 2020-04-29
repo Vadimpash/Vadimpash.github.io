@@ -68,7 +68,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr 2fr 1fr);
     grid-auto-rows: minmax(80px, auto);
-    background-color: #e6ac48;
+    background-color: #6f6e6e;
     margin-top: 10px;
 }
 
@@ -130,7 +130,7 @@
 
 .footerSettingSpanStatistic {
     display: grid;
-    background-color: #e6ac48;
+    background-color: #6f6e6e;
 }
 
 .footerSettingSpanStatistic span {
@@ -170,8 +170,3 @@
     padding-bottom: 60px;
 }
 
-.contentStatistic {
-    width: 500px;
-    height: 500px;
-    background-color: #ff3c00;
-}

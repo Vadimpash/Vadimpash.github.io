@@ -1,6 +1,6 @@
 .hookah {
     background-color: black;
-    padding-left: 55px;
+    padding-left: 110px;
 }
 
 .headHookah {
@@ -172,8 +172,3 @@
     padding-bottom: 60px;
 }
 
-.contentHookah {
-    width: 500px;
-    height: 500px;
-    background-color: yellow;
-}

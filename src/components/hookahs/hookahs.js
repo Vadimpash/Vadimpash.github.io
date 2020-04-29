@@ -4,6 +4,7 @@ import logoReg from "../../img/png/logoReg.png";
 import exitHookah from "../../img/png/exitReg.png"
 import arrowNext from "../../img/png/arrowNext.png"
 import arrowSort from "../../img/png/arrowSort.png"
+import AccordionHookah from "../Accordion/accordionHookah";
 import {NavLink} from "react-router-dom";
 
 
@@ -23,7 +24,14 @@ const Hookahs = () => {
                 <NavLink exact to="/history" activeClassName='active'>history</NavLink>
             </div>
             <div className="contentHookah">
-                <span>hookah</span>
+                <AccordionHookah title="Ramsider 01" content="Hookah"/>
+                <AccordionHookah title="Ramsider 02" content="Hookah"/>
+                <AccordionHookah title="Ramsider 03" content="Hookah"/>
+                <AccordionHookah title="Ramsider 04" content="Hookah"/>
+                <AccordionHookah title="Ramsider 05" content="Hookah"/>
+                <AccordionHookah title="Ramsider 06" content="Hookah"/>
+                <AccordionHookah title="Ramsider 07" content="Hookah"/>
+                <AccordionHookah title="Ramsider 08" content="Hookah"/>
             </div>
             <div className="footerHookah">
                 <div className="footerPageHookah">
