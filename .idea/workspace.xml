@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/png/arrow_accordion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedMedium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedMedium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedMedium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedMedium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/png/battery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/png/batteryBlack.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +62,15 @@
     <property name="ts.external.directory.path" value="D:\Soft\WS\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\png" />
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components" />
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\body" />
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\jpg" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\png" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\body" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\jpg" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -113,7 +112,8 @@
       <workItem from="1588061044130" duration="8946000" />
       <workItem from="1588084240541" duration="13109000" />
       <workItem from="1588147502941" duration="12288000" />
-      <workItem from="1588173339745" duration="6936000" />
+      <workItem from="1588173339745" duration="7135000" />
+      <workItem from="1588242266077" duration="15938000" />
     </task>
     <servers />
   </component>

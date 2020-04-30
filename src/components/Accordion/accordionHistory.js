@@ -1,12 +1,11 @@
 import React, {useState, useRef} from "react";
 import './accordionHistory.css';
 import AccordArrowHistory from "../../img/png/arrow_accordion.png"
-
+import Battery from "../../img/png/batteryBlack.png"
 
 const AccordionHistory = (props) => {
     const [setActive, setActiveState] = useState("");
     const [setHeight, setHeightState] = useState("0px");
-    const [setRotate, setRotateState] = useState("accordionHistory__icon");
 
     const content = useRef(null);
 
@@ -15,15 +14,15 @@ const AccordionHistory = (props) => {
         setHeightState(
             setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
         );
-        setRotateState(
-            setActive === "active" ? "accordionHistory__icon" : "accordionHistory__icon rotateHistory"
-        );
     }
     return (
         <div className="accordionHistory__section">
             <button className={`accordionHistory ${setActive}`} onClick={toggleAccordion}>
-                <p className="accordionHistory__title">{props.title}</p>
-                <img src={AccordArrowHistory} alt=""/>
+                <p className="accordionHistory__title"><span>{props.title}</span>
+                    <img src={AccordArrowHistory} alt=""/>
+                    <img src={Battery} alt=""/>
+                    <span>17 : 05</span>
+                    <span>active</span></p>
             </button>
             <div
                 ref={content}

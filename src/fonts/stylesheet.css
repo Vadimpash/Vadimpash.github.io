@@ -75,6 +75,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DINPro-CondensedMedium';
+    src: url('DINPro-CondensedMedium.eot');
+    src: url('DINPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+    url('DINPro-CondensedMedium.woff') format('woff'),
+    url('DINPro-CondensedMedium.ttf') format('truetype'),
+    url('DINPro-CondensedMedium.svg#DINPro-CondensedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
 
 
 

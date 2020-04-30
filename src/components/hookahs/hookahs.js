@@ -24,14 +24,14 @@ const Hookahs = () => {
                 <NavLink exact to="/history" activeClassName='active'>history</NavLink>
             </div>
             <div className="contentHookah">
-                <AccordionHookah title="Ramsider 01" content="Hookah"/>
-                <AccordionHookah title="Ramsider 02" content="Hookah"/>
-                <AccordionHookah title="Ramsider 03" content="Hookah"/>
-                <AccordionHookah title="Ramsider 04" content="Hookah"/>
-                <AccordionHookah title="Ramsider 05" content="Hookah"/>
-                <AccordionHookah title="Ramsider 06" content="Hookah"/>
-                <AccordionHookah title="Ramsider 07" content="Hookah"/>
-                <AccordionHookah title="Ramsider 08" content="Hookah"/>
+                <AccordionHookah title="Ramsider 01" />
+                <AccordionHookah title="Ramsider 02" />
+                <AccordionHookah title="Ramsider 03" />
+                <AccordionHookah title="Ramsider 04" />
+                <AccordionHookah title="Ramsider 05" />
+                <AccordionHookah title="Ramsider 06" />
+                <AccordionHookah title="Ramsider 07" />
+                <AccordionHookah title="Ramsider 08" />
             </div>
             <div className="footerHookah">
                 <div className="footerPageHookah">
