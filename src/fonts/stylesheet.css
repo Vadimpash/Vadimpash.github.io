@@ -86,6 +86,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DINPro-CondensedBold';
+    src: url('DINPro-CondensedBold.eot');
+    src: url('DINPro-CondensedBold.eot?#iefix') format('embedded-opentype'),
+    url('DINPro-CondensedBold.woff') format('woff'),
+    url('DINPro-CondensedBold.ttf') format('truetype'),
+    url('DINPro-CondensedBold.svg#DINPro-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 
 

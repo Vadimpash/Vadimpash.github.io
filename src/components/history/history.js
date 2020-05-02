@@ -24,14 +24,14 @@ const History = () => {
                 <NavLink exact to="/history" activeClassName='active'>history</NavLink>
             </div>
             <div className="contentHistory">
-                <AccordionHistory title="Ramsider 01" content="History"/>
-                <AccordionHistory title="Ramsider 02" content="History"/>
-                <AccordionHistory title="Ramsider 03" content="History"/>
-                <AccordionHistory title="Ramsider 04" content="History"/>
-                <AccordionHistory title="Ramsider 05" content="History"/>
-                <AccordionHistory title="Ramsider 06" content="History"/>
-                <AccordionHistory title="Ramsider 07" content="History"/>
-                <AccordionHistory title="Ramsider 08" content="History"/>
+                <AccordionHistory title="Ramsider 01"/>
+                <AccordionHistory title="Ramsider 02"/>
+                <AccordionHistory title="Ramsider 03"/>
+                <AccordionHistory title="Ramsider 04"/>
+                <AccordionHistory title="Ramsider 05"/>
+                <AccordionHistory title="Ramsider 06"/>
+                <AccordionHistory title="Ramsider 07"/>
+                <AccordionHistory title="Ramsider 08"/>
             </div>
             <div className="footerHistory">
                 <div className="footerPageHistory">

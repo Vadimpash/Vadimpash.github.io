@@ -18,18 +18,8 @@
 /* Style the accordion content title */
 .accordionHistory__title {
     display: grid;
-    grid-template-columns: repeat(1, 1.5fr 0.5fr 1fr 1fr 1fr);
+    grid-template-columns: repeat(1, 1fr 0.5fr 1fr 1fr);
     grid-auto-rows: minmax(130px, auto);
-}
-
-.accordionHistory__title img {
-    align-self: center;
-    justify-self: center;
-}
-
-.accordionHistory__title title {
-    align-self: center;
-    justify-self: center;
 }
 
 .accordionHistory__title span:nth-child(1) {
@@ -37,23 +27,26 @@
     text-transform: uppercase;
     font-size: 60px;
     align-self: center;
-    justify-self: center;
+}
+
+.accordionHistory__title span:nth-child(2) {
+    text-align: left;
+    align-self: center;
+}
+
+.accordionHistory__title span:nth-child(3) {
+    font-family: DINPro-CondensedRegular, serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    align-self: center;
+    text-align: right;
 }
 
 .accordionHistory__title span:nth-child(4) {
-    font-family: DINPro-CondensedRegular, serif;
+    font-family: DINPro-CondensedBold, serif;
     text-transform: uppercase;
     font-size: 60px;
     align-self: center;
-    justify-self: center;
-}
-
-.accordionHistory__title span:nth-child(5) {
-    font-family: DINPro-CondensedRegular, serif;
-    text-transform: uppercase;
-    font-size: 60px;
-    align-self: center;
-    justify-self: center;
 }
 
 /* Style the accordion content panel. Note: hidden by default */
@@ -69,5 +62,4 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding: 18px;
 }
