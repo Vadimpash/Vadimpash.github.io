@@ -1,9 +1,7 @@
-/* Style the accordion section */
 .accordionTabac__section {
     display: grid;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordionTabac {
     background-color: #e2e393;
     color: #444;
@@ -14,7 +12,6 @@
     transition: background-color 0.6s ease;
 }
 
-/* Style the accordion content title */
 .accordionTabac__title {
     display: grid;
     grid-template-columns: repeat(1, 1fr 0.5fr 0.5fr);
@@ -57,15 +54,13 @@
     grid-gap: 50px;
 }
 
-/* Style the accordion content panel. Note: hidden by default */
 .accordionTabac__content {
     background-color: #282828;
-    overflow: auto;
+    overflow: hidden;
     transition: max-height 0.6s ease;
     max-height: 0;
 }
 
-/* Style the accordion content text */
 .accordionTabac__text {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr);

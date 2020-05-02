@@ -1,10 +1,8 @@
-/* Style the accordion section */
 .accordionHistory__section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordionHistory {
     background-color: #f4acad;
     color: #444;
@@ -15,7 +13,6 @@
     transition: background-color 0.6s ease;
 }
 
-/* Style the accordion content title */
 .accordionHistory__title {
     display: grid;
     grid-template-columns: repeat(1, 1fr 0.5fr 1fr 1fr);
@@ -49,17 +46,155 @@
     align-self: center;
 }
 
-/* Style the accordion content panel. Note: hidden by default */
 .accordionHistory__content {
     background-color: #282828;
-    overflow: auto;
+    overflow: hidden;
     transition: max-height 0.6s ease;
     max-height: 0;
 }
 
-/* Style the accordion content text */
 .accordionHistory__text {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr 2fr 0.5fr);
+    grid-auto-rows: minmax(500px, auto);
+}
+
+.leftContentHistory  {
+    display: grid;
+}
+
+.leftContentHistory span {
+    padding-left: 50px;
+    font-family: DINPro-CondensedMedium, serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #f4acac;
+    padding-top: 70px;
+}
+
+.middleContentHistory {
+    display: grid;
+    padding-left: 115px;
+    grid-gap: 45px;
+}
+
+.titleSessionHistory span {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #f4acac;
+}
+
+.wrapMiddleSpanHistory {
+    align-self: center;
+    padding-top: 55px;
+}
+
+.wrapMiddleSpanHistory span:nth-child(1) {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #f4acac;
+}
+
+.wrapMiddleSpanHistory span:nth-child(3) {
+    font-family: DINPro-Light, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f4acac;
+}
+
+.sessionHistory {
+    display: grid;
+    grid-gap: 25px;
+}
+
+.headerSessionHistory {
+    font-family: DINPro-CondensedBold, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.upperHistory span:nth-child(1) {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.upperHistory span:nth-child(3) {
+    font-family: DINPro-Light, serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.middleHistory span:nth-child(1) {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.middleHistory span:nth-child(3) {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bottomHistory {
+    padding-bottom: 80px;
+}
+
+.bottomHistory span:nth-child(1) {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bottomHistory span:nth-child(3) {
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.rightContentHistory {
+    display: grid;
+}
+
+.wrapBtnHistory {
+    display: grid;
+    justify-content: right;
+    padding-top: 50px;
+    padding-right: 90px;
+}
+
+.btnHistoryOne {
+    width: 50px;
+    height: 40px;
+    border: #e6ac48 solid 1px;
+    background: transparent none;
+    text-decoration: blink;
+}
+
+.btnHistoryTwo {
+    width: 50px;
+    height: 40px;
+    border: #e6ac48 solid 1px;
+    background: transparent none;
+    text-decoration: blink;
+}
+
+.rightContentHistory span {
+    display: grid;
+    align-self: end;
+    padding-bottom: 40px;
+    font-family: DINPro-CondensedRegular, serif;
+    font-size: 50px;
+    color: #f4acac;
+    text-transform: uppercase;
 }

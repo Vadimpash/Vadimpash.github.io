@@ -239,6 +239,7 @@
 }
 
 .buttonReg {
+    text-decoration: blink;
     border: medium none;
     background-color: #262626;
 }
@@ -262,6 +263,7 @@
 .foot button {
     border: medium none;
     background: transparent none;
+    text-decoration: blink;
     margin-left: 140px;
     margin-top: 330px;
     margin-bottom: 95px;

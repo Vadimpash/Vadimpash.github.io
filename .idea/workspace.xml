@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DINPro-CondensedBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/png/qrCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/png/arrowDownHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/png/arrowUppHistory.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +108,7 @@
       <workItem from="1588242266077" duration="16535000" />
       <workItem from="1588427856123" duration="9650000" />
       <workItem from="1588439043169" duration="16000" />
+      <workItem from="1588447079664" duration="6387000" />
     </task>
     <servers />
   </component>
