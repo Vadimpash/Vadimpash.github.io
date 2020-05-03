@@ -91,6 +91,7 @@
     font-family: "Raleway ExtraLight", serif;
     width: 25px;
     height: 25px;
+    margin-right: 25px;
 }
 
 .set span:nth-child(1) {
@@ -206,6 +207,7 @@
 .addReg {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    grid-auto-rows: minmax(200px, auto);
     color: #c8a455;
     padding-left: 100px;
 }
@@ -215,22 +217,23 @@
     font-size: 50px;
     text-transform: uppercase;
     color: #f1c669;
-    padding-top: 95px;
+    align-self: center;
 }
 
 .addReg span:nth-child(2) {
     font-family: "Raleway ExtraLight", serif;
     font-size: 40px;
     color: white;
-    padding-top: 95px;
-    padding-left: 150px;
+    align-self: center;
+    text-align: center;
 }
 
 .addReg span:nth-child(3) {
     font-family: "Raleway ExtraLight", serif;
     font-size: 40px;
     color: white;
-    padding: 95px 40px 65px 100px;
+    align-self: center;
+    text-align: center;
 }
 
 .addReg input {

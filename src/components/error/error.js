@@ -4,7 +4,7 @@ import './error.css';
 
 const Error = () => {
     return (
-        <div className="modalWindow" id='up'>
+        <div className="modalWindow">
             <div className="upContent">
                 <div className="upHead">
 
@@ -13,6 +13,7 @@ const Error = () => {
 
                 </div>
                 <div className="upFoot">
+
                 </div>
             </div>
         </div>

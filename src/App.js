@@ -21,7 +21,7 @@ const App = () => {
                 <div className="statistic"><Route exact path='/statistic' component={Statistic}/></div>
                 <div className="tabac"><Route exact path='/tabac' component={Tabac}/></div>
                 <div className="history"><Route exact path='/history' component={History}/></div>
-                <Error/>
+               {/* <Error/>*/}
             </div>
         </BrowserRouter>
     );

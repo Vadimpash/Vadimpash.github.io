@@ -40,8 +40,8 @@ const Registration = () => {
                             <input type="password" id="pass" placeholder="xxxxxx"/>
                         </div>
                         <div className="addReg"><span>status</span>
-                            <span><input type="radio" id="radioButton"/>staff</span>
-                            <span><input type="radio" id="radioButton"/>full access</span></div>
+                            <span><input type="radio" id="radioButton" />staff</span>
+                            <span><input type="radio" id="radioButton" />full access</span></div>
                     </div>
                     <button className="buttonReg"><span>add admin</span></button>
                 </form>
