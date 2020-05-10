@@ -31,7 +31,6 @@ const Tabac = () => {
                 <AccordionTabac title="Ramsider 05"/>
                 <AccordionTabac title="Ramsider 06"/>
                 <AccordionTabac title="Ramsider 07"/>
-                <AccordionTabac title="Ramsider 08"/>
             </div>
             <div className="footerTabac">
                 <div className="footerPageTabac">

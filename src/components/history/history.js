@@ -27,11 +27,6 @@ const History = () => {
                 <AccordionHistory title="Ramsider 01"/>
                 <AccordionHistory title="Ramsider 02"/>
                 <AccordionHistory title="Ramsider 03"/>
-                <AccordionHistory title="Ramsider 04"/>
-                <AccordionHistory title="Ramsider 05"/>
-                <AccordionHistory title="Ramsider 06"/>
-                <AccordionHistory title="Ramsider 07"/>
-                <AccordionHistory title="Ramsider 08"/>
             </div>
             <div className="footerHistory">
                 <div className="footerPageHistory">

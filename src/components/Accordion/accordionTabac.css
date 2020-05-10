@@ -142,10 +142,16 @@
     color: #e6ac48;
 }
 
-.accordionSpanTabacRight span:nth-child(3) {
+.accordionSpanTabacRight button {
     font-family: DINPro-CondensedRegular, serif;
     font-size: 40px;
     text-transform: uppercase;
     color: #e6ac48;
+    background: transparent none;
+    border: medium none;
+}
+
+.accordionSpanTabacRight button:hover {
+    color: #e2e393;
 }
 

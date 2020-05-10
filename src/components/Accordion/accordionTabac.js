@@ -57,7 +57,7 @@ const AccordionTabac = (props) => {
                         <span><img src={qrCode} alt=""/></span>
                         <div className="accordionSpanTabacRight">
                             <span>rams tobacco fruit mix</span> <br/>
-                            <span>order</span>
+                            <button>order</button>
                         </div>
                     </div>
                 </div>

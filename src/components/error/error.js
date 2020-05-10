@@ -3,6 +3,7 @@ import './error.css';
 
 
 const Error = () => {
+
     return (
         <div className="modalWindow">
             <div className="upContent">

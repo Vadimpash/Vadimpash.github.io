@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error/error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error/error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/error/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +111,11 @@
       <workItem from="1588447079664" duration="6387000" />
       <workItem from="1588493352527" duration="1291000" />
       <workItem from="1588494806219" duration="1285000" />
+      <workItem from="1588496146628" duration="124000" />
+      <workItem from="1588584069156" duration="1376000" />
+      <workItem from="1588860220987" duration="1644000" />
+      <workItem from="1588941249890" duration="141000" />
+      <workItem from="1589104873806" duration="1991000" />
     </task>
     <servers />
   </component>
