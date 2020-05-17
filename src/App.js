@@ -7,22 +7,23 @@ import Hookahs from "./components/hookahs/hookahs";
 import Statistic from "./components/statistic/statistic";
 import Tabac from "./components/tabac/tabac";
 import History from "./components/history/history";
-import {BrowserRouter, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
 
     return (
-        <BrowserRouter>
             <div className="wrapper">
-                <div className="auth"><Route exact path='/' component={Authorization}/></div>
-                <div className="registration"><Route exact path='/registration' component={Registration}/></div>
-                <div className="hookahs"><Route exact path='/hookah' component={Hookahs}/></div>
-                <div className="statistic"><Route exact path='/statistic' component={Statistic}/></div>
-                <div className="tabac"><Route exact path='/tabac' component={Tabac}/></div>
-                <div className="history"><Route exact path='/history' component={History}/></div>
-               {/* <Error/>*/}
+                <div className="auth"><Route exact path='/' render={() => <Authorization/>}/></div>
+                <div className="registration"><Route exact path='/registration'
+                                                     render={() => <Registration stateStorage={props.stateStorage}
+                                                                                 addNewAdmin={props.addNewAdmin}/>}/>
+                </div>
+                <div className="hookahs"><Route exact path='/hookah' render={() => <Hookahs/>}/></div>
+                <div className="statistic"><Route exact path='/statistic' render={() => <Statistic/>}/></div>
+                <div className="tabac"><Route exact path='/tabac' render={() => <Tabac/>}/></div>
+                <div className="history"><Route exact path='/history' render={() => <History/>}/></div>
+                {/* <Error/>*/}
             </div>
-        </BrowserRouter>
     );
 };
 

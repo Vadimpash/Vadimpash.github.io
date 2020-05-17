@@ -1,10 +1,10 @@
-.accordionStatistic__section {
+.accordionStatisticT__section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 
-.accordionStatistic {
-    background-color: #f1763a;
+.accordionStatisticT {
+    background-color: #beb53f;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -13,19 +13,20 @@
     transition: background-color 0.6s ease;
 }
 
-.accordionStatistic__title {
+.accordionStatisticT__title {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr);
     grid-auto-rows: minmax(130px, auto);
+    color: #000;
 }
 
-.accordionStatistic__title img  {
+.accordionStatisticT__title img  {
     align-self: center;
     justify-self: right;
     margin-right: 90px;
 }
 
-.accordionStatistic__title span:nth-child(1)  {
+.accordionStatisticT__title span:nth-child(1)  {
     font-family: DINPro-CondensedMedium, serif;
     text-transform: uppercase;
     font-size: 60px;
@@ -34,11 +35,12 @@
     color: #000;
 }
 
-.accordionStatistic__content {
+.accordionStatisticT__content {
     background-color: #282828;
     overflow: hidden;
     transition: max-height 0.6s ease;
     max-height: 0;
 }
+
 
 

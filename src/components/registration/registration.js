@@ -4,7 +4,21 @@ import logoReg from "../../img/png/logoReg.png"
 import exitReg from "../../img/png/exitReg.png"
 import {NavLink} from "react-router-dom";
 
-const Registration = () => {
+
+const Registration = (props) => {
+
+    let newAdminLogin = React.createRef();
+    let newAdminPassword = React.createRef();
+
+    let addAdmin = () => {
+        let textLogin = newAdminLogin.current.value;
+        alert(textLogin);
+
+        let textPassword = newAdminPassword.current.value;
+        alert(textPassword);
+
+    }
+
     return (
         <div className="reg">
             <div className="headTit">
@@ -32,18 +46,20 @@ const Registration = () => {
                         <div className="titLogReg"><span>login</span></div>
                         <div className="login">
                             <label htmlFor="login"> </label>
-                            <input type="text" id="login" placeholder="administrator"/>
+                            <input placeholder="administrator" ref={newAdminLogin}
+                                   value={props.newLoginAdmin}/>
                         </div>
                         <div className="titPassReg"><span>password</span></div>
                         <div className="password">
                             <label htmlFor="password"> </label>
-                            <input type="password" id="pass" placeholder="xxxxxx"/>
+                            <input placeholder="xxxxxx"  ref={newAdminPassword}
+                                   value={props.newPasswordAdmin}/>
                         </div>
                         <div className="addReg"><span>status</span>
-                            <span><input type="radio" id="radioButton" />staff</span>
-                            <span><input type="radio" id="radioButton" />full access</span></div>
+                            <span><input type="radio" id="radioButton"/>staff</span>
+                            <span><input type="radio" id="radioButton"/>full access</span></div>
                     </div>
-                    <button className="buttonReg"><span>add admin</span></button>
+                    <button className="buttonReg" onClick={addAdmin}><span>add admin</span></button>
                 </form>
             </div>
             <div className="yellowStrip"><span>/</span></div>

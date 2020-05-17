@@ -61,14 +61,14 @@
 }
 
 .menuStatistic a.active {
-    background-color: #6f6e6e;
+    background-color: #f1763a;
 }
 
 .footerPageStatistic {
     display: grid;
     grid-template-columns: repeat(1, 1fr 2fr 1fr);
     grid-auto-rows: minmax(80px, auto);
-    background-color: #6f6e6e;
+    background-color: #f1763a;
     margin-top: 10px;
 }
 
@@ -130,7 +130,7 @@
 
 .footerSettingSpanStatistic {
     display: grid;
-    background-color: #6f6e6e;
+    background-color: #f1763a;
 }
 
 .footerSettingSpanStatistic span {

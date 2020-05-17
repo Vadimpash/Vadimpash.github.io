@@ -4,7 +4,6 @@ import Fon from '../../img/jpg/logoc.jpg'
 import Connect from '../../img/png/connect.png'
 import {NavLink} from "react-router-dom";
 
-
 const Authorization = () => {
     return (
         <div className="mainWindow">

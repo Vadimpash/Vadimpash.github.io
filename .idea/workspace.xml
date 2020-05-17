@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diplom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git-diplom-andrei" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Accordion" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -54,6 +64,11 @@
     <property name="ts.external.directory.path" value="D:\Soft\WS\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\Accordion" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\png" />
@@ -61,12 +76,19 @@
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\body" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\jpg" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
-    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -79,6 +101,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -116,6 +143,17 @@
       <workItem from="1588860220987" duration="1644000" />
       <workItem from="1588941249890" duration="141000" />
       <workItem from="1589104873806" duration="1991000" />
+      <workItem from="1589110912118" duration="175000" />
+      <workItem from="1589114103121" duration="599000" />
+      <workItem from="1589126055354" duration="850000" />
+      <workItem from="1589133730990" duration="1440000" />
+      <workItem from="1589369128899" duration="6729000" />
+      <workItem from="1589384009040" duration="2593000" />
+      <workItem from="1589448386504" duration="5725000" />
+      <workItem from="1589531952740" duration="5547000" />
+      <workItem from="1589566193504" duration="598000" />
+      <workItem from="1589703823890" duration="11738000" />
+      <workItem from="1589736141247" duration="1354000" />
     </task>
     <servers />
   </component>
@@ -147,10 +185,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="50" y="241" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984@0.0.1280.984" timestamp="1587730212876" />
-    <state x="420" y="245" key="FileChooserDialogImpl" timestamp="1588170528425">
+    <state x="420" y="245" key="FileChooserDialogImpl" timestamp="1589375989597">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="245" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588170528425" />
+    <state x="420" y="245" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1589375989597" />
+    <state width="1258" height="258" key="GridCell.Tab.0.bottom" timestamp="1589375183565">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1258" height="258" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
+    <state width="1258" height="258" key="GridCell.Tab.0.center" timestamp="1589375183565">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1258" height="258" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
+    <state width="1258" height="258" key="GridCell.Tab.0.left" timestamp="1589375183565">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1258" height="258" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
+    <state width="1258" height="258" key="GridCell.Tab.0.right" timestamp="1589375183565">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1258" height="258" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
     <state x="296" y="221" key="run.anything.popup" timestamp="1588148640436">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

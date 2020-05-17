@@ -5,6 +5,7 @@ import arrowNext from "../../img/png/arrowNext.png"
 import arrowSort from "../../img/png/arrowSort.png"
 import logoReg from "../../img/png/logoReg.png";
 import AccordionStatistic from "../Accordion/accordionStatistic";
+import AccordionStatisticT from "../Accordion/accordionStatisticT";
 import {NavLink} from "react-router-dom";
 
 const Statistic = () => {
@@ -23,14 +24,8 @@ const Statistic = () => {
                 <NavLink exact to="/history" activeClassName='active'>history</NavLink>
             </div>
             <div className="contentStatistic">
-                <AccordionStatistic title="Ramsider 01" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 02" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 03" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 04" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 05" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 06" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 07" content="Statistic"/>
-                <AccordionStatistic title="Ramsider 08" content="Statistic"/>>
+                <AccordionStatistic title="weekly information" />
+                <AccordionStatisticT title="preferred tobaccos" />
             </div>
             <div className="footerStatistic">
                 <div className="footerPageStatistic">
