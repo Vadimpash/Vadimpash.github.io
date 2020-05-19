@@ -1,6 +1,7 @@
 .tabac {
     background-color: black;
     padding-left: 55px;
+    padding-right: 30px;
 }
 
 .headTabac {
@@ -28,6 +29,7 @@
     color: white;
     font-size: 50px;
     text-transform: uppercase;
+    padding-left: 30px;
 }
 
 .TabacSp2 {

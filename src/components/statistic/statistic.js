@@ -11,11 +11,11 @@ import {NavLink} from "react-router-dom";
 const Statistic = () => {
     return (
         <div className="statistic">
-            <div className="headHookah">
-                <div className="HookahWrap"><span className="colorHookahText">restaurant</span><span
-                    className="HookahSp1">name</span>
-                    <span className="HookahSp2">bergh</span></div>
-                <div className="headHookahImg"><img src={logoReg} alt="/"/></div>
+            <div className="headStatistic">
+                <div className="StatisticWrap"><span className="colorStatisticText">restaurant</span><span
+                    className="StatisticSp1">name</span>
+                    <span className="StatisticSp2">bergh</span></div>
+                <div className="headStatisticImg"><img src={logoReg} alt="/"/></div>
             </div>
             <div className="menuStatistic">
                 <NavLink exact to="/hookah" activeClassName='active'>active hookahs</NavLink>

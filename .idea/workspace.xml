@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-DemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-DemiBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-DemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-DemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-ExtraLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-ExtraLight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/DIN2014-ExtraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/png/arrowStatisticDown.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +142,7 @@
       <workItem from="1589703823890" duration="11738000" />
       <workItem from="1589736141247" duration="3600000" />
       <workItem from="1589791657435" duration="594000" />
-      <workItem from="1589894425296" duration="6236000" />
+      <workItem from="1589894425296" duration="7671000" />
     </task>
     <servers />
   </component>
