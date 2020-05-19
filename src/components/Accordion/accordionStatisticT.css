@@ -36,11 +36,141 @@
 }
 
 .accordionStatisticT__content {
-    background-color: #282828;
+    background-color: black;
     overflow: hidden;
     transition: max-height 0.6s ease;
     max-height: 0;
 }
 
+.StatisticT {
+    display: grid;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
 
+.coupleStatisticT1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 2fr );
+    grid-auto-rows: minmax(160px, auto);
+    align-self: center;
+}
+
+.coupleStatisticT1 span:nth-child(1) {
+    font-family: DIN2014-ExtraLight, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.coupleStatisticT1 span:nth-child(2) {
+    font-family: DIN2014-DemiBold, serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.BIT1 {
+    display: grid;
+    justify-content: right;
+}
+
+.BIT1 button {
+    font-family: DIN2014-ExtraLight, serif;
+    font-size: 40px;
+    color: white;
+    border: medium none;
+    background: transparent none;
+    text-decoration: blink;
+    height: 20px;
+}
+
+.BIT1 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.coupleStatisticT2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 2fr );
+    grid-auto-rows: minmax(160px, auto);
+    align-self: center;
+}
+
+.coupleStatisticT2 span:nth-child(1) {
+    font-family: DIN2014-ExtraLight, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.coupleStatisticT2 span:nth-child(2) {
+    font-family: DIN2014-DemiBold, serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.BIT2 {
+    display: grid;
+    justify-content: right;
+}
+
+.BIT2 button {
+    font-family: DIN2014-ExtraLight, serif;
+    font-size: 40px;
+    color: white;
+    border: medium none;
+    background: transparent none;
+    text-decoration: blink;
+    height: 20px;
+}
+
+.BIT2 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.coupleStatisticT3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 2fr );
+    grid-auto-rows: minmax(160px, auto);
+    align-self: center;
+}
+
+.coupleStatisticT3 span:nth-child(1) {
+    font-family: DIN2014-ExtraLight, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.coupleStatisticT3 span:nth-child(2) {
+    font-family: DIN2014-DemiBold, serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.BIT3 {
+    display: grid;
+    justify-content: right;
+}
+
+.BIT3 button {
+    font-family: DIN2014-ExtraLight, serif;
+    font-size: 40px;
+    color: white;
+    border: medium none;
+    background: transparent none;
+    text-decoration: blink;
+    height: 20px;
+}
+
+.BIT3 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 15px;
+}
 

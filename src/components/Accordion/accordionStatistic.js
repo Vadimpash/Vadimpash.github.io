@@ -2,6 +2,8 @@ import React, {useState, useRef, useEffect} from "react";
 import './accordionStatistic.css';
 import AccordArrowStatistic from "../../img/png/arrow_accordion.png"
 import {Line} from "react-chartjs-2";
+import arrowStatisticDown from "../../img/png/arrowStatisticDown.png"
+
 
 const AccordionStatistic = (props) => {
     const [setActive, setActiveState] = useState("");
@@ -16,7 +18,7 @@ const AccordionStatistic = (props) => {
         );
     }
 
-    const  [chartData, setChartData] = useState({})
+    const [chartData, setChartData] = useState({})
     const chart = () => {
         setChartData({
             labels: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'],
@@ -39,17 +41,17 @@ const AccordionStatistic = (props) => {
             <button className={`accordionStatistic ${setActive}`} onClick={toggleAccordion}>
                 <p className="accordionStatistic__title"><span>{props.title}</span>
                     <img src={AccordArrowStatistic} alt=""/>
-                   </p>
+                </p>
             </button>
             <div
                 ref={content}
-                style={{ maxHeight: `${setHeight}` }}
+                style={{maxHeight: `${setHeight}`}}
                 className="accordionStatistic__content"
             >
                 <Line data={chartData}
                       options={{
                           responsive: true,
-                          title: { text: "sometext", display: true },
+                          title: {text: "sometext", display: true},
                           scales: {
                               yAxes: [
                                   {
@@ -74,8 +76,33 @@ const AccordionStatistic = (props) => {
                       }}/>
                 <div
                     className="accordionStatistic__text"
-                    dangerouslySetInnerHTML={{ __html: props.content }}
+                    dangerouslySetInnerHTML={{__html: props.content}}
                 />
+
+                <div className="Statistic">
+                    <div className="coupleStatistic1">
+                        <span>profit</span>
+                        <span>3540</span>
+                        <div className="BI1">
+                            <button>week<img src={arrowStatisticDown} alt="/"/></button>
+                        </div>
+
+                    </div>
+                    <div className="coupleStatistic2">
+                        <span>visitors</span>
+                        <span>1547</span>
+                        <div className="BI2">
+                            <button>week<img src={arrowStatisticDown} alt="/"/></button>
+                        </div>
+                    </div>
+                    <div className="coupleStatistic3">
+                        <span>sessions</span>
+                        <span>1805</span>
+                        <div className="BI3">
+                            <button>week<img src={arrowStatisticDown} alt="/"/></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

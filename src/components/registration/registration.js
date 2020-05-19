@@ -16,7 +16,6 @@ const Registration = (props) => {
 
         let textPassword = newAdminPassword.current.value;
         alert(textPassword);
-
     }
 
     return (
@@ -46,14 +45,12 @@ const Registration = (props) => {
                         <div className="titLogReg"><span>login</span></div>
                         <div className="login">
                             <label htmlFor="login"> </label>
-                            <input placeholder="administrator" ref={newAdminLogin}
-                                   value={props.newLoginAdmin}/>
+                            <input placeholder="administrator" ref={newAdminLogin}/>
                         </div>
                         <div className="titPassReg"><span>password</span></div>
                         <div className="password">
                             <label htmlFor="password"> </label>
-                            <input placeholder="xxxxxx"  ref={newAdminPassword}
-                                   value={props.newPasswordAdmin}/>
+                            <input placeholder="xxxxxx"  ref={newAdminPassword}/>
                         </div>
                         <div className="addReg"><span>status</span>
                             <span><input type="radio" id="radioButton"/>staff</span>
