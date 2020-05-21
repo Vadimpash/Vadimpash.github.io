@@ -5,6 +5,8 @@ import exitReg from "../../img/png/exitReg.png"
 import {NavLink} from "react-router-dom";
 
 
+
+
 const Registration = (props) => {
 
     let newAdminLogin = React.createRef();

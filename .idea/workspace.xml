@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +52,17 @@
     <property name="ts.external.directory.path" value="D:\Soft\WS\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\Accordion" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src" />
+      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\png" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\body" />
       <recent name="C:\Users\Admin\WebstormProjects\diplom\src\img\jpg" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\components\Accordion" />
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src" />
-      <recent name="C:\Users\Admin\WebstormProjects\diplom\src\fonts" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -73,6 +74,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -90,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -142,7 +154,10 @@
       <workItem from="1589703823890" duration="11738000" />
       <workItem from="1589736141247" duration="3600000" />
       <workItem from="1589791657435" duration="594000" />
-      <workItem from="1589894425296" duration="7671000" />
+      <workItem from="1589894425296" duration="7885000" />
+      <workItem from="1589911514062" duration="1751000" />
+      <workItem from="1590056087498" duration="7832000" />
+      <workItem from="1590074088799" duration="7033000" />
     </task>
     <servers />
   </component>
@@ -178,22 +193,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="245" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1589375989597" />
-    <state width="1258" height="258" key="GridCell.Tab.0.bottom" timestamp="1589375183565">
+    <state width="1258" height="252" key="GridCell.Tab.0.bottom" timestamp="1590085690776">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="258" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
-    <state width="1258" height="258" key="GridCell.Tab.0.center" timestamp="1589375183565">
+    <state width="1258" height="252" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590085690776" />
+    <state width="1258" height="252" key="GridCell.Tab.0.center" timestamp="1590085690776">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="258" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
-    <state width="1258" height="258" key="GridCell.Tab.0.left" timestamp="1589375183565">
+    <state width="1258" height="252" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590085690776" />
+    <state width="1258" height="252" key="GridCell.Tab.0.left" timestamp="1590085690776">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="258" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
-    <state width="1258" height="258" key="GridCell.Tab.0.right" timestamp="1589375183565">
+    <state width="1258" height="252" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590085690776" />
+    <state width="1258" height="252" key="GridCell.Tab.0.right" timestamp="1590085690776">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="258" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1589375183565" />
+    <state width="1258" height="252" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590085690776" />
+    <state x="365" y="279" key="git4idea.merge.GitPullDialog" timestamp="1590085588980">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="365" y="279" key="git4idea.merge.GitPullDialog/0.0.1280.984@0.0.1280.984" timestamp="1590085588980" />
     <state x="296" y="221" key="run.anything.popup" timestamp="1588148640436">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

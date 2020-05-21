@@ -20,7 +20,7 @@ const AccordionStatisticT = (props) => {
     const  [chartData, setChartData] = useState({})
     const chart = () => {
         setChartData({
-            labels: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'],
+            labels: ['-', '-', '-', '-', '-'],
             datasets: [
                 {
                     label: "s",
