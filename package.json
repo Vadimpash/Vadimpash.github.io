@@ -2,7 +2,7 @@
   "name": "diplom",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vadimpash306.github.io/diplom",
+  "homepage": "https://vadimpash306.github.io/diplom/",
   "dependencies": {
     "@material-ui/system": "^4.9.14",
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
+    "hash-router": "^0.4.0",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.1",

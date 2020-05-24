@@ -12,18 +12,18 @@ import {Route} from "react-router-dom";
 const App = (props) => {
 
     return (
-            <div className="wrapper">
-                <div className="auth"><Route exact path='/' render={() => <Authorization/>}/></div>
-                <div className="registration"><Route exact path='/registration'
-                                                     render={() => <Registration stateStorage={props.stateStorage}
-                                                                                 addNewAdmin={props.addNewAdmin}/>}/>
-                </div>
-                <div className="hookahs"><Route exact path='/hookah' render={() => <Hookahs/>}/></div>
-                <div className="statistic"><Route exact path='/statistic' render={() => <Statistic/>}/></div>
-                <div className="tabac"><Route exact path='/tabac' render={() => <Tabac/>}/></div>
-                <div className="history"><Route exact path='/history' render={() => <History/>}/></div>
-                {/* <Error/>*/}
+        <div className="wrapper">
+            <div className="auth"><Route exact path='/' render={() => <Authorization/>}/></div>
+            <div className="registration"><Route exact path='/registration'
+                                                 render={() => <Registration stateStorage={props.stateStorage}
+                                                                             addNewAdmin={props.addNewAdmin}/>}/>
             </div>
+            <div className="hookahs"><Route ute exact path='/hookah' render={() => <Hookahs/>}/></div>
+            <div className="statistic"><Route exact path='/statistic' render={() => <Statistic/>}/></div>
+            <div className="tabac"><Route exact path='/tabac' render={() => <Tabac/>}/></div>
+            <div className="history"><Route exact path='/history' render={() => <History/>}/></div>
+            {/* <Error/>*/}
+        </div>
     );
 };
 
