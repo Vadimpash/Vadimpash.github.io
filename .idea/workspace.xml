@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +168,8 @@
       <workItem from="1590314624183" duration="12000" />
       <workItem from="1590315024426" duration="1586000" />
       <workItem from="1590318824831" duration="774000" />
+      <workItem from="1590341390902" duration="2534000" />
+      <workItem from="1590411078466" duration="14149000" />
     </task>
     <servers />
   </component>

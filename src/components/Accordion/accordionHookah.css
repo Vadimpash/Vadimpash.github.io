@@ -150,3 +150,165 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width: 425px) {
+    .accordion__section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .accordion {
+        background-color: #e6ac48;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        border: none;
+        outline: none;
+        transition: background-color 0.6s ease;
+    }
+
+    .accordion__title {
+        display: grid;
+        grid-template-columns: repeat(1, 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr);
+        grid-auto-rows: minmax(100px, auto);
+        color: #000;
+    }
+
+    .accordion__title img {
+        width: 45px;
+        height: 15px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .accordion__title title {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .accordion__title span:nth-child(1) {
+        font-family: DINPro-CondensedMedium, serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .accordion__title span:nth-child(4) {
+        font-family: DINPro-CondensedRegular, serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .accordion__title span:nth-child(5) {
+        font-family: DINPro-CondensedRegular, serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .accordion__content {
+        background-color: #282828;
+        overflow: hidden;
+        transition: max-height 0.6s ease;
+        max-height: 0;
+    }
+
+    .accordion__text {
+        display: grid;
+        grid-auto-rows: minmax(250px, auto);
+        grid-template-columns: repeat(1, 1fr 3fr );
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .accordionHookahLeft {
+        display: grid;
+        border-right: #e6ac48 solid 5px;
+    }
+
+    .wrapAccordHookahLeft {
+        display: grid;
+        align-self: center;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+    .wrapAccordHookahLeft button {
+        font-family: DINPro-Bold, serif;
+        font-size: 20px;
+        color: #e6ac48;
+        text-transform: uppercase;
+        height: 15px;
+        width: 55px;
+        margin-top: 120px;
+        border: medium none;
+        background: transparent none;
+    }
+
+    .accordionHookahLeft span:nth-child(1){
+        font-family: DINPro-CondensedMedium, serif;
+        font-size: 30px;
+        color: #e6ac48;
+        text-transform: uppercase;
+    }
+
+    .wrapBattery span {
+        padding-right: 10px;
+    }
+
+    .wrapBattery img {
+        width: 45px;
+        height: 15px;
+    }
+
+    .accordionHookahRight {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        padding-left: 30px;
+    }
+
+    .wrapSpanHookah span:nth-child(1) {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 25px;
+        color: #e6ac48;
+        text-transform: uppercase;
+    }
+
+    .wrapSpanHookah p {
+        font-family: DINPro-Light, serif;
+        font-size: 15px;
+        color: #e6ac48;
+        text-transform: uppercase;
+    }
+
+    .accordionHookahRight span:nth-child(3) {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 25px;
+        color: #e6ac48;
+        text-transform: uppercase;
+    }
+
+    .accordionHookahRight span:nth-child(5) {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 25px;
+        color: #e6ac48;
+        text-transform: uppercase;
+    }
+
+    .accordionHookahRight span:nth-child(7) {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 25px;
+        color: #e6ac48;
+        text-transform: uppercase;
+    }
+
+
+    .accordionHookahRight input {
+        width: 15px;
+        height: 15px;
+    }
+}
