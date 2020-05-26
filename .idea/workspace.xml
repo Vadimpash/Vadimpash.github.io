@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ authorization/authorization.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHistory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatistic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionStatisticT.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionTabac.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hookahs/hookahs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +163,7 @@
       <workItem from="1590318824831" duration="774000" />
       <workItem from="1590341390902" duration="2534000" />
       <workItem from="1590411078466" duration="14788000" />
-      <workItem from="1590491410904" duration="8465000" />
+      <workItem from="1590491410904" duration="15414000" />
     </task>
     <servers />
   </component>
@@ -206,22 +199,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="245" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1590314634006" />
-    <state width="1258" height="252" key="GridCell.Tab.0.bottom" timestamp="1590427243789">
+    <state width="1258" height="252" key="GridCell.Tab.0.bottom" timestamp="1590508164378">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590427243789" />
-    <state width="1258" height="252" key="GridCell.Tab.0.center" timestamp="1590427243789">
+    <state width="1258" height="252" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590508164378" />
+    <state width="1258" height="252" key="GridCell.Tab.0.center" timestamp="1590508164378">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590427243789" />
-    <state width="1258" height="252" key="GridCell.Tab.0.left" timestamp="1590427243789">
+    <state width="1258" height="252" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590508164378" />
+    <state width="1258" height="252" key="GridCell.Tab.0.left" timestamp="1590508164377">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590427243789" />
-    <state width="1258" height="252" key="GridCell.Tab.0.right" timestamp="1590427243789">
+    <state width="1258" height="252" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590508164377" />
+    <state width="1258" height="252" key="GridCell.Tab.0.right" timestamp="1590508164378">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590427243789" />
+    <state width="1258" height="252" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590508164378" />
     <state x="365" y="279" key="git4idea.merge.GitPullDialog" timestamp="1590085588980">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

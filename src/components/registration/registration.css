@@ -745,7 +745,7 @@
     .set span:nth-child(8) {
         padding-left: 5px;
         background-color: #232323;
-        font-size: 20px;
+        font-size: 15px;
         text-transform: uppercase;
     }
 
@@ -894,5 +894,6 @@
         text-transform: uppercase;
         padding-bottom: 30px;
     }
+
 }
 

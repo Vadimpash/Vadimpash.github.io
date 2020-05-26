@@ -542,8 +542,8 @@
 }
 
 @media screen and (max-width: 375px) {
+
     .statistic {
-        background-color: black;
         padding-left: 5px;
         padding-right: 5px;
     }

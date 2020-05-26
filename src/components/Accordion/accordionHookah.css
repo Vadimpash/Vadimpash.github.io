@@ -551,7 +551,7 @@
 
     .accordionHookahLeft {
         display: grid;
-        border-right: #e6ac48 solid 5px;
+        border-right: #e6ac48 solid 1px;
     }
 
     .wrapAccordHookahLeft {
