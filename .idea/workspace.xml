@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="" />
+    <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +160,8 @@
       <workItem from="1590341390902" duration="2534000" />
       <workItem from="1590411078466" duration="14788000" />
       <workItem from="1590491410904" duration="15414000" />
-      <workItem from="1590508350042" duration="599000" />
+      <workItem from="1590508350042" duration="793000" />
+      <workItem from="1590515990279" duration="1008000" />
     </task>
     <servers />
   </component>
@@ -193,22 +197,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="245" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1590314634006" />
-    <state width="1258" height="252" key="GridCell.Tab.0.bottom" timestamp="1590509011709">
+    <state width="1258" height="252" key="GridCell.Tab.0.bottom" timestamp="1590509165166">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590509011709" />
-    <state width="1258" height="252" key="GridCell.Tab.0.center" timestamp="1590509011709">
+    <state width="1258" height="252" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
+    <state width="1258" height="252" key="GridCell.Tab.0.center" timestamp="1590509165166">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590509011709" />
-    <state width="1258" height="252" key="GridCell.Tab.0.left" timestamp="1590509011708">
+    <state width="1258" height="252" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
+    <state width="1258" height="252" key="GridCell.Tab.0.left" timestamp="1590509165166">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590509011708" />
-    <state width="1258" height="252" key="GridCell.Tab.0.right" timestamp="1590509011709">
+    <state width="1258" height="252" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
+    <state width="1258" height="252" key="GridCell.Tab.0.right" timestamp="1590509165166">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590509011709" />
+    <state width="1258" height="252" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
     <state x="365" y="279" key="git4idea.merge.GitPullDialog" timestamp="1590085588980">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
