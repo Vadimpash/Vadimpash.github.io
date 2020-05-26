@@ -590,3 +590,309 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .reg {
+        background-color: #141414;
+        padding-top: 50px;
+    }
+
+    .headTit {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        font-family: "Raleway Medium", serif;
+        padding-left: 10px;
+    }
+
+    .titWrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        margin-bottom: 45px;
+    }
+
+    .colorText {
+        font-family: "DINPro-Medium", serif;
+        color: #d39c40;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .colorText p {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .sp2 {
+        font-family: "DINPro", serif;
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .sp3 {
+        font-family: "DINPro-Light", serif;
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .logRegImg {
+        text-align: right;
+        padding-left: 10px;
+        margin-right: 50px;
+    }
+
+    .logRegImg img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .set {
+        display: grid;
+        color: white;
+        background-color: #232323;
+    }
+
+    .SetTit {
+        display: grid;
+        background-color: #f1c567;
+        grid-auto-rows: minmax(35px, auto);
+    }
+
+    .SetTit p {
+        font-family: "DINPro-CondensedRegular", serif;
+        padding-left: 5px;
+        color: black;
+        font-size: 15px;
+        text-transform: uppercase;
+        align-self: center;
+    }
+
+    .set h1 {
+        font-family: DINPro, serif;
+        padding-left: 5px;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .setCont {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        grid-auto-rows: minmax(35px, auto);
+        font-family: DINPro, serif;
+        background-color: #232323;
+        padding-bottom: 35px;
+    }
+
+    .setCont input {
+        font-family: "Raleway ExtraLight", serif;
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    .set span:nth-child(1) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(2) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(3) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(4) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(5) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(6) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(7) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .set span:nth-child(8) {
+        padding-left: 5px;
+        background-color: #232323;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .addRegMain form {
+        display: grid;
+        grid-template-columns: repeat(1, 300px 1fr);
+    }
+
+    .titReg {
+        display: grid;
+        background-color: #f1c567;
+        grid-auto-rows: minmax(25px, auto);
+        padding-left: 5px;
+    }
+
+    .titReg span {
+        align-self: center;
+        color: black;
+        font-family: "Raleway Medium", serif;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .RegCont input {
+        background-color: #f1c567;
+        width: 100%;
+        height: 35px;
+        padding-left: 5px;
+    }
+
+    .titLogReg {
+        display: grid;
+        padding-left: 5px;
+        grid-auto-rows: minmax(35px, auto);
+    }
+
+    .titLogReg span {
+        align-self: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: white;
+        font-family: "Raleway ExtraLight", serif;
+    }
+
+    .titPassReg {
+        display: grid;
+        padding-left: 5px;
+        grid-auto-rows: minmax(35px, auto);
+    }
+
+    .titPassReg span {
+        align-self: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: white;
+        font-family: "Raleway ExtraLight", serif;
+    }
+
+    .addReg {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr);
+        grid-auto-rows: minmax(70px, auto);
+        color: #c8a455;
+        padding-left: 5px;
+    }
+
+    .addReg span:nth-child(1) {
+        font-family: "Raleway Medium", serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #f1c669;
+        align-self: center;
+    }
+
+    .addReg span:nth-child(2) {
+        font-family: "Raleway ExtraLight", serif;
+        font-size: 10px;
+        color: white;
+        align-self: center;
+        text-align: center;
+    }
+
+    .addReg span:nth-child(3) {
+        font-family: "Raleway ExtraLight", serif;
+        font-size: 10px;
+        color: white;
+        align-self: center;
+        text-align: center;
+    }
+
+    .addReg input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .buttonReg {
+        text-decoration: blink;
+        border: medium none;
+        background-color: #262626;
+    }
+
+    .buttonReg span {
+        text-align: center;
+        font-family: "Raleway Medium", serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #f1c669;
+    }
+
+    .yellowStrip {
+        background-color: #f1c669;
+    }
+
+    .yellowStrip span {
+        visibility: hidden;
+    }
+
+    .foot button {
+        border: medium none;
+        background: transparent none;
+        text-decoration: blink;
+        margin-left: 5px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .foot img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .foot span {
+        text-align: center;
+        padding-left: 10px;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "DINPro-CondensedRegular", serif;
+    }
+
+    .foot p {
+        font-family: DINPro, serif;
+        margin-left: 5px;
+        color: #505050;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+    }
+}
+

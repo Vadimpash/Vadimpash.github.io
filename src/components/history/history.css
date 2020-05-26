@@ -181,18 +181,6 @@
         padding-right: 10px;
     }
 
-    .headHistoryImg {
-        padding-left: 40px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .history {
-        background-color: black;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
     .headHistory {
         display: grid;
         padding-top: 80px;
@@ -209,21 +197,21 @@
     .colorHistoryText {
         font-family: "DINPro-Medium", serif;
         color: #d39c40;
-        font-size: 30px;
+        font-size: 40px;
         text-transform: uppercase;
     }
 
     .HistorySp1 {
         font-family: "DINPro", serif;
         color: white;
-        font-size: 30px;
+        font-size: 40px;
         text-transform: uppercase;
         padding-left: 20px;
     }
 
     .HistorySp2 {
         font-family: "DINPro-Light", serif;
-        font-size: 30px;
+        font-size: 40px;
         color: white;
         text-transform: uppercase;
     }
@@ -231,6 +219,213 @@
     .headHistoryImg {
         text-align: right;
         padding-left: 15px;
+    }
+
+    .menuHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+        grid-auto-rows: minmax(30px, auto);
+        grid-gap: 5px;
+    }
+
+    .menuHistory a {
+        text-decoration: blink;
+        align-self: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: DINPro-CondensedRegular, serif;
+        color: white;
+        text-transform: uppercase;
+        background-color: #6f6e6e;
+    }
+
+    .footerPageHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 2fr 1fr);
+        grid-auto-rows: minmax(40px, auto);
+        background-color: #f4acad;
+        margin-top: 5px;
+    }
+
+    .footerButtonHistory1 {
+        border: medium none;
+        background: transparent none;
+    }
+
+    .footerButtonHistory1 img {
+        padding-left: 10px;
+        height: 30px;
+        width: 60px;
+    }
+
+    .footerButtonHistory1 span {
+        padding-left: 10px;
+        font-family: DINPro-Bold, serif;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .footerSpanHistory1 {
+        display: grid;
+    }
+
+    .footerSpanHistory1 span {
+        align-self: center;
+        padding-left: 10px;
+        font-family: DINPro-Light, serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .footerButtonHistory2 {
+        border: medium none;
+        background: transparent none;
+    }
+
+    .footerButtonHistory2 img {
+        width: 20px;
+        height: 40px;
+    }
+
+    .footerButtonHistory2 span {
+        padding-left: 15px;
+        font-family: DINPro-Bold, serif;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .footerSettingHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr);
+        grid-auto-rows: minmax(45px, auto);
+        margin-top: 10px;
+        grid-gap: 5px;
+    }
+
+    .footerEmptyDiv {
+        background-color: #464646;
+    }
+
+    .footerEmptyDiv span {
+        visibility: hidden;
+    }
+
+    .footerSettingSpanHistory {
+        display: grid;
+        background-color: #f4acad;
+    }
+
+    .footerSettingSpanHistory span {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 25px;
+        color: black;
+        text-transform: uppercase;
+        align-self: center;
+        text-align: center;
+    }
+
+    .footerSettingHistory a {
+        display: grid;
+        text-decoration: blink;
+        background-color: #bb0343;
+    }
+
+    .footerSettingHistory img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .footerSettingButtonHistory {
+        border: medium none;
+        background: transparent none;
+    }
+
+    .footerSettingButtonHistory span {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 25px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .footerTextHistory p {
+        font-family: DINPro, serif;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #555555;
+        margin-top: 25px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .history {
+        background-color: black;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .headHistory {
+        display: grid;
+        padding-top: 70px;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        font-family: "Raleway Medium", serif;
+    }
+
+    .HistoryWrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        margin-bottom: 45px;
+    }
+
+    .colorHistoryText {
+        font-family: "DINPro-Medium", serif;
+        color: #d39c40;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .HistorySp1 {
+        font-family: "DINPro", serif;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+
+    .HistorySp2 {
+        font-family: "DINPro-Light", serif;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .headHistoryImg {
+        text-align: right;
+        padding-left: 15px;
+    }
+
+    .headHistoryImg img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .menuHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 5px;
+    }
+
+    .menuHistory a {
+        text-decoration: blink;
+        align-self: center;
+        text-align: center;
+        font-size: 15px;
+        font-family: DINPro-CondensedRegular, serif;
+        color: white;
+        text-transform: uppercase;
+        background-color: #6f6e6e;
     }
 
     .footerPageHistory {
@@ -344,5 +539,195 @@
         color: #555555;
         margin-top: 25px;
         padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .history {
+        background-color: black;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .headHistory {
+        display: grid;
+        padding-top: 40px;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        font-family: "Raleway Medium", serif;
+    }
+
+    .HistoryWrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
+        margin-bottom: 45px;
+    }
+
+    .colorHistoryText {
+        font-family: "DINPro-Medium", serif;
+        color: #d39c40;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .HistorySp1 {
+        font-family: "DINPro", serif;
+        color: white;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+
+    .HistorySp2 {
+        font-family: "DINPro-Light", serif;
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .headHistoryImg {
+        text-align: right;
+        padding-left: 10px;
+        margin-right: 50px;
+    }
+
+    .headHistoryImg img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menuHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+        grid-auto-rows: minmax(35px, auto);
+        grid-gap: 5px;
+    }
+
+    .menuHistory a {
+        text-decoration: blink;
+        align-self: center;
+        text-align: center;
+        font-size: 15px;
+        font-family: DINPro-CondensedRegular, serif;
+        color: white;
+        text-transform: uppercase;
+        background-color: #6f6e6e;
+    }
+
+    .footerPageHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 2fr 1fr);
+        grid-auto-rows: minmax(20px, auto);
+        background-color: #f4acad;
+        margin-top: 5px;
+    }
+
+    .footerButtonHistory1 {
+        border: medium none;
+        background: transparent none;
+    }
+
+    .footerButtonHistory1 img {
+        padding-left: 5px;
+        height: 15px;
+        width: 30px;
+    }
+
+    .footerButtonHistory1 span {
+        padding-left: 5px;
+        font-family: DINPro-Bold, serif;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .footerSpanHistory1 {
+        display: grid;
+    }
+
+    .footerSpanHistory1 span {
+        align-self: center;
+        padding-left: 5px;
+        font-family: DINPro-Light, serif;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .footerButtonHistory2 {
+        border: medium none;
+        background: transparent none;
+    }
+
+    .footerButtonHistory2 span {
+        padding-left: 10px;
+        font-family: DINPro-Bold, serif;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .footerButtonHistory2 img {
+        width: 15px;
+        height: 30px;
+    }
+
+    .footerSettingHistory {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr 1fr);
+        grid-auto-rows: minmax(25px, auto);
+        margin-top: 10px;
+        grid-gap: 5px;
+    }
+
+    .footerEmptyDiv {
+        background-color: #464646;
+    }
+
+    .footerEmptyDiv span {
+        visibility: hidden;
+    }
+
+    .footerSettingSpanHistory {
+        display: grid;
+        background-color: #f4acad;
+    }
+
+    .footerSettingSpanHistory span {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 15px;
+        color: black;
+        text-transform: uppercase;
+        align-self: center;
+        text-align: center;
+    }
+
+    .footerSettingHistory a {
+        display: grid;
+        text-decoration: blink;
+        background-color: #bb0343;
+    }
+
+    .footerSettingHistory img {
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .footerSettingButtonHistory {
+        border: medium none;
+        background: transparent none;
+    }
+
+    .footerSettingButtonHistory span {
+        font-family: DINPro-CondensedRegular, serif;
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .footerTextHistory p {
+        font-family: DINPro, serif;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #555555;
+        margin-top: 15px;
+        padding-bottom: 15px;
     }
 }
