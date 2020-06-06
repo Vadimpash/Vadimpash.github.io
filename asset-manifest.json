@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/diplom/static/css/main.e5bbe668.chunk.css",
+    "main.css": "/diplom/static/css/main.13946912.chunk.css",
     "main.js": "/diplom/static/js/main.606b5516.chunk.js",
     "main.js.map": "/diplom/static/js/main.606b5516.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.ca4b8185.js",
@@ -8,9 +8,9 @@
     "static/js/2.d5dc7830.chunk.js": "/diplom/static/js/2.d5dc7830.chunk.js",
     "static/js/2.d5dc7830.chunk.js.map": "/diplom/static/js/2.d5dc7830.chunk.js.map",
     "index.html": "/diplom/index.html",
-    "precache-manifest.481a8b28a35246ddd7236b2967f6413f.js": "/diplom/precache-manifest.481a8b28a35246ddd7236b2967f6413f.js",
+    "precache-manifest.b455378fd3da7202d2c3246fe90628ce.js": "/diplom/precache-manifest.b455378fd3da7202d2c3246fe90628ce.js",
     "service-worker.js": "/diplom/service-worker.js",
-    "static/css/main.e5bbe668.chunk.css.map": "/diplom/static/css/main.e5bbe668.chunk.css.map",
+    "static/css/main.13946912.chunk.css.map": "/diplom/static/css/main.13946912.chunk.css.map",
     "static/js/2.d5dc7830.chunk.js.LICENSE.txt": "/diplom/static/js/2.d5dc7830.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/diplom/static/media/Raleway-Medium.e97168b3.woff",
     "static/media/logoReg.png": "/diplom/static/media/logoReg.bfb06dec.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ca4b8185.js",
     "static/js/2.d5dc7830.chunk.js",
-    "static/css/main.e5bbe668.chunk.css",
+    "static/css/main.13946912.chunk.css",
     "static/js/main.606b5516.chunk.js"
   ]
 }
