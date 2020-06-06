@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/diplom/static/css/main.46654106.chunk.css",
-    "main.js": "/diplom/static/js/main.5661c86e.chunk.js",
-    "main.js.map": "/diplom/static/js/main.5661c86e.chunk.js.map",
-    "runtime-main.js": "/diplom/static/js/runtime-main.ca4b8185.js",
-    "runtime-main.js.map": "/diplom/static/js/runtime-main.ca4b8185.js.map",
-    "static/js/2.641e48c6.chunk.js": "/diplom/static/js/2.641e48c6.chunk.js",
-    "static/js/2.641e48c6.chunk.js.map": "/diplom/static/js/2.641e48c6.chunk.js.map",
-    "index.html": "/diplom/index.html",
-    "precache-manifest.9e316403da858e6db55377f6c4cd1b80.js": "/diplom/precache-manifest.9e316403da858e6db55377f6c4cd1b80.js",
-    "service-worker.js": "/diplom/service-worker.js",
-    "static/css/main.46654106.chunk.css.map": "/diplom/static/css/main.46654106.chunk.css.map",
-    "static/js/2.641e48c6.chunk.js.LICENSE.txt": "/diplom/static/js/2.641e48c6.chunk.js.LICENSE.txt",
-    "static/media/stylesheet.css": "/diplom/static/media/Raleway-Medium.e97168b3.woff",
-    "static/media/logoReg.png": "/diplom/static/media/logoReg.bfb06dec.png",
-    "static/media/logoc.jpg": "/diplom/static/media/logoc.bef536e0.jpg",
-    "static/media/qrCode.png": "/diplom/static/media/qrCode.028094fa.png"
+    "main.css": "/static/css/main.f9aafb08.chunk.css",
+    "main.js": "/static/js/main.f668b9e3.chunk.js",
+    "main.js.map": "/static/js/main.f668b9e3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2477e95.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2477e95.js.map",
+    "static/js/2.c72a48d5.chunk.js": "/static/js/2.c72a48d5.chunk.js",
+    "static/js/2.c72a48d5.chunk.js.map": "/static/js/2.c72a48d5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.735fda2cc5773f44a0081959c6a250c9.js": "/precache-manifest.735fda2cc5773f44a0081959c6a250c9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f9aafb08.chunk.css.map": "/static/css/main.f9aafb08.chunk.css.map",
+    "static/js/2.c72a48d5.chunk.js.LICENSE.txt": "/static/js/2.c72a48d5.chunk.js.LICENSE.txt",
+    "static/media/stylesheet.css": "/static/media/Raleway-Medium.e97168b3.woff",
+    "static/media/logoReg.png": "/static/media/logoReg.bfb06dec.png",
+    "static/media/logoc.jpg": "/static/media/logoc.bef536e0.jpg",
+    "static/media/qrCode.png": "/static/media/qrCode.028094fa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca4b8185.js",
-    "static/js/2.641e48c6.chunk.js",
-    "static/css/main.46654106.chunk.css",
-    "static/js/main.5661c86e.chunk.js"
+    "static/js/runtime-main.c2477e95.js",
+    "static/js/2.c72a48d5.chunk.js",
+    "static/css/main.f9aafb08.chunk.css",
+    "static/js/main.f668b9e3.chunk.js"
   ]
 }
