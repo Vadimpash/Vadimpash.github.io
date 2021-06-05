@@ -1,24 +1,10 @@
 import React from "react";
-import './registration.css';
+import './RegSetting.css';
 import logoReg from "../../img/png/logoReg.png"
 import exitReg from "../../img/png/exitReg.png"
 import {NavLink} from "react-router-dom";
 
-
-
-
-const Registration = (props) => {
-
-    let newAdminLogin = React.createRef();
-    let newAdminPassword = React.createRef();
-
-    let addAdmin = () => {
-        let textLogin = newAdminLogin.current.value;
-        alert(textLogin);
-
-        let textPassword = newAdminPassword.current.value;
-        alert(textPassword);
-    }
+const RegSetting = (props) => {
 
     return (
         <div className="reg">
@@ -47,23 +33,23 @@ const Registration = (props) => {
                         <div className="titLogReg"><span>login</span></div>
                         <div className="login">
                             <label htmlFor="login"> </label>
-                            <input placeholder="administrator" ref={newAdminLogin}/>
+                            <input placeholder="administrator"/>
                         </div>
                         <div className="titPassReg"><span>password</span></div>
                         <div className="password">
                             <label htmlFor="password"> </label>
-                            <input placeholder="xxxxxx"  ref={newAdminPassword}/>
+                            <input placeholder="xxxxxx"  />
                         </div>
                         <div className="addReg"><span>status</span>
                             <span><input type="radio" id="radioButton"/>staff</span>
                             <span><input type="radio" id="radioButton"/>full access</span></div>
                     </div>
-                    <button className="buttonReg" onClick={addAdmin}><span>add admin</span></button>
+                    <button className="buttonReg" ><span>add admin</span></button>
                 </form>
             </div>
             <div className="yellowStrip"><span>/</span></div>
             <div className="foot">
-                <NavLink to="/">
+                <NavLink to="/hookah">
                     <button><img src={exitReg} alt="/"/><span>back</span></button>
                 </NavLink>
                 <p>general legal information for the customer and other thing general legal <br/> information for the
@@ -73,4 +59,4 @@ const Registration = (props) => {
     );
 }
 
-export default Registration;
+export default RegSetting;

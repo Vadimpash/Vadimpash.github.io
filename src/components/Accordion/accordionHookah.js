@@ -34,7 +34,7 @@ const AccordionHookah = (props) => {
                 style={{maxHeight: `${setHeight}`}}
                 className="accordion__content"
             >
-                <div className="accordion__text">
+                 <div className="accordion__text">
                     <div className="accordionHookahLeft">
                         <div className="wrapAccordHookahLeft"><span>{props.title}</span>
                             <div className="wrapBattery"><span>99%</span>

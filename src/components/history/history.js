@@ -38,11 +38,11 @@ const History = () => {
                     <div className="footerEmptyDiv">
                         <span>/</span>
                     </div>
-                    <div className="footerSettingSpanHistory"><span>setting</span></div>
-                    <NavLink exact to="/">
-                        <button className="footerSettingButtonHistory"><img src={exitHookah} alt=""/><span>back</span>
-                        </button>
-                    </NavLink>
+                    <div className="footerSettingSpanHistory"><NavLink exact to="/regSetting"><span>setting</span></NavLink></div>
+                   <div className="BackButton"><NavLink exact to="/">
+                       <button className="footerSettingButtonHistory"><img src={exitHookah} alt=""/><span>back</span>
+                       </button>
+                   </NavLink></div>
                 </div>
                 <div className="footerTextHistory"><p>general legal information for the customer and other things general
                     legal <br/>

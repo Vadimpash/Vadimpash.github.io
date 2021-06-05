@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71c9402-28ed-4758-880b-35a65f7e87e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/authentication/authentication.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/statistic/statistic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/statistic/statistic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authentication/authentication.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ authorization/authorization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/accordionHookah.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/history/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegSetting/RegSetting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegSetting/RegSetting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabac/tabac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabac/tabac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +174,29 @@
       <workItem from="1590411078466" duration="14788000" />
       <workItem from="1590491410904" duration="15414000" />
       <workItem from="1590508350042" duration="793000" />
-      <workItem from="1590515990279" duration="1008000" />
+      <workItem from="1590515990279" duration="2468000" />
+      <workItem from="1590658376772" duration="4223000" />
+      <workItem from="1590674390016" duration="1588000" />
+      <workItem from="1590686891112" duration="2167000" />
+      <workItem from="1590763552122" duration="571000" />
+      <workItem from="1590770403077" duration="2086000" />
+      <workItem from="1591015800434" duration="215000" />
+      <workItem from="1591088467989" duration="5620000" />
+      <workItem from="1591121943607" duration="1935000" />
+      <workItem from="1591177734789" duration="7450000" />
+      <workItem from="1591191783922" duration="2693000" />
+      <workItem from="1591206483355" duration="4858000" />
+      <workItem from="1591295763518" duration="2656000" />
+      <workItem from="1591436506650" duration="5354000" />
+      <workItem from="1591520434063" duration="1782000" />
+      <workItem from="1591615397468" duration="5607000" />
+      <workItem from="1591639415508" duration="827000" />
+      <workItem from="1591716893523" duration="2498000" />
+      <workItem from="1591786863059" duration="5293000" />
+      <workItem from="1591866662997" duration="1092000" />
+      <workItem from="1591965143931" duration="4129000" />
+      <workItem from="1591970338447" duration="3246000" />
+      <workItem from="1592300401363" duration="151000" />
     </task>
     <servers />
   </component>
@@ -197,22 +232,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="245" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1590314634006" />
-    <state width="1258" height="252" key="GridCell.Tab.0.bottom" timestamp="1590509165166">
+    <state width="1258" height="248" key="GridCell.Tab.0.bottom" timestamp="1591444028070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
-    <state width="1258" height="252" key="GridCell.Tab.0.center" timestamp="1590509165166">
+    <state width="1258" height="248" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1591444028070" />
+    <state width="1258" height="248" key="GridCell.Tab.0.center" timestamp="1591444028070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
-    <state width="1258" height="252" key="GridCell.Tab.0.left" timestamp="1590509165166">
+    <state width="1258" height="248" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1591444028070" />
+    <state width="1258" height="248" key="GridCell.Tab.0.left" timestamp="1591444028070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
-    <state width="1258" height="252" key="GridCell.Tab.0.right" timestamp="1590509165166">
+    <state width="1258" height="248" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1591444028070" />
+    <state width="1258" height="248" key="GridCell.Tab.0.right" timestamp="1591444028070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1258" height="252" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1590509165166" />
+    <state width="1258" height="248" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1591444028070" />
     <state x="365" y="279" key="git4idea.merge.GitPullDialog" timestamp="1590085588980">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

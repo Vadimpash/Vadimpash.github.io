@@ -1,8 +1,8 @@
 import React from "react";
 import './App.css';
 import './fonts/stylesheet.css';
-import Authorization from "./components/ authorization/authorization";
-import Registration from "./components/registration/registration";
+import Authentication from "./components/authentication/authentication";
+import RegSetting from "./components/RegSetting/RegSetting";
 import Hookahs from "./components/hookahs/hookahs";
 import Statistic from "./components/statistic/statistic";
 import Tabac from "./components/tabac/tabac";
@@ -13,10 +13,10 @@ const App = (props) => {
 
     return (
         <div className="wrapper">
-            <div className="auth"><Route exact path='/' render={() => <Authorization/>}/></div>
-            <div className="registration"><Route exact path='/registration'
-                                                 render={() => <Registration stateStorage={props.stateStorage}
-                                                                             addNewAdmin={props.addNewAdmin}/>}/>
+            <div className="auth"><Route exact path='/' render={() => <Authentication/>}/></div>
+            <div className="registration"><Route exact path='/regSetting'
+                                                 render={() => <RegSetting stateStorage={props.stateStorage}
+                                                                           addNewAdmin={props.addNewAdmin}/>}/>
             </div>
             <div className="hookahs"><Route ute exact path='/hookah' render={() => <Hookahs/>}/></div>
             <div className="statistic"><Route exact path='/statistic' render={() => <Statistic/>}/></div>

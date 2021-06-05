@@ -108,7 +108,6 @@ input {
 }
 
 .add {
-    padding-left: 50px;
     display: grid;
     color: white;
     grid-template-columns: repeat(1, 2fr 1fr);
@@ -117,7 +116,19 @@ input {
     font-family: 'Raleway ExtraLight', serif;
 }
 
-.add button {
+.add .b1  {
+    padding-left: 50px;
+    border: none;
+    background-color: #181818;
+    text-align: left;
+    width: 300px;
+    text-decoration: blink;
+    color: white;
+    font-size: 40px;
+    font-family: "Raleway ExtraLight", serif;
+}
+
+.add .b2 {
     font-size: 35px;
     font-family: "Raleway ExtraLight", serif;
     align-self: center;
@@ -126,14 +137,6 @@ input {
     height: 100px;
     background-color: #181818;
     text-transform: uppercase;
-}
-
-.add a {
-    align-self: center;
-    text-decoration: blink;
-    color: white;
-    font-size: 40px;
-    font-family: "Raleway ExtraLight", serif;
 }
 
 .mainFooter {
@@ -255,7 +258,19 @@ input {
         font-family: 'Raleway ExtraLight', serif;
     }
 
-    .add button {
+    .add .b1  {
+        padding-left: 0;
+        border: none;
+        background-color: #181818;
+        text-align: left;
+        width: 180px;
+        text-decoration: blink;
+        color: white;
+        font-size: 25px;
+        font-family: "Raleway ExtraLight", serif;
+    }
+
+    .add .b2 {
         font-size: 25px;
         font-family: "Raleway ExtraLight", serif;
         align-self: center;
@@ -264,14 +279,7 @@ input {
         height: 100px;
         background-color: #181818;
         text-transform: uppercase;
-    }
-
-    .add a {
-        align-self: center;
-        text-decoration: blink;
-        color: white;
-        font-size: 25px;
-        font-family: "Raleway ExtraLight", serif;
+        margin-right: 20px;
     }
 }
 
@@ -364,22 +372,28 @@ input {
         font-family: 'Raleway ExtraLight', serif;
     }
 
-    .add button {
-        font-size: 15px;
-        font-family: "Raleway ExtraLight", serif;
-        align-self: center;
-        color: white;
+    .add .b1  {
+        padding-left: 0;
         border: none;
-        height: 50px;
         background-color: #181818;
-        text-transform: uppercase;
-    }
-
-    .add a {
-        align-self: center;
+        text-align: left;
+        width: 100px;
         text-decoration: blink;
         color: white;
         font-size: 15px;
         font-family: "Raleway ExtraLight", serif;
     }
+
+    .add .b2 {
+        font-size: 15px;
+        font-family: "Raleway ExtraLight", serif;
+        align-self: center;
+        color: white;
+        border: none;
+        height: 100px;
+        background-color: #181818;
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
 }
